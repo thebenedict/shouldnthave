@@ -1,0 +1,35 @@
+# == Schema Information
+#
+# Table name: list_items
+#
+#  id              :integer          not null, primary key
+#  name            :string
+#  url             :string
+#  note            :text
+#  purchaser_notes :text
+#  claimed         :boolean          default(FALSE), not null
+#  list_id         :integer
+#  claimer_id      :integer
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  url: MyString
+  note: MyText
+  purchaser_notes: MyText
+  claimed: false
+  list_id: 1
+  claimer_id: 1
+
+two:
+  name: MyString
+  url: MyString
+  note: MyText
+  purchaser_notes: MyText
+  claimed: false
+  list_id: 1
+  claimer_id: 1
